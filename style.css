@@ -1,0 +1,36 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.container {
+    width: 360px;
+    display: flex;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.to-do-list {
+    margin-top: 25px;
+}
+
+.paragraph-style {
+    cursor: pointer;
+}
